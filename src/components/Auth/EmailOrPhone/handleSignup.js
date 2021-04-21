@@ -118,7 +118,7 @@ export const checkIfThisEmailAndPhonenumberIsAlreadyUsed_Handler = async (data, 
 
 export const handleCreateAccountIfUserIsVerified = async (data, cb) => {
     // const url = "http://localhost:5000/auth/signup/create_user_after_verification";
-    const url = `${MY_BACKEND}/auth/signup/create_user_after_verification"`
+    const url = `${MY_BACKEND}/auth/signup/create_user_after_verification`;
     const dependency = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
